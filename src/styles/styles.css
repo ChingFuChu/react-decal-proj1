@@ -1,0 +1,16 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ui.cards > .card {
+    width: 200px;
+}
+  

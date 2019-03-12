@@ -1,5 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
 
-// ReactDOM.render(<App />, document.getElementById('root'));
+import "./styles/styles.css";
+
+import Cart from "./Cart";
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Safeway</h1>
+      <Cart />
+    </div>
+  );
+}
