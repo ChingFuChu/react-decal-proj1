@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ui.cards > .card {
+    width: 200px;
+}
+  
+
+.receipt {
+    border: 2px solid #bbb;
+    min-width: 45%;
+    padding: 25px;
+  }
+  
+.receipt-text {
+    font-family: "Anonymous Pro", monospace;
+}
+
+.receipt-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 135%;
+    margin-top: 25px;
+}
+  
