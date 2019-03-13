@@ -1,4 +1,4 @@
-export const ProductData = { 
+const ProductData = { 
     products: [ 
         {
             name: "Apple",
@@ -22,3 +22,5 @@ export const ProductData = {
         },
     ]
 }
+
+export default ProductData;
