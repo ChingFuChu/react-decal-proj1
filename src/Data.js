@@ -1,5 +1,10 @@
-const ProductData = { 
-    products: [ 
+const ProductData = {
+    products: [
+      {
+          name: "poop",
+          cost: 1.0,
+          stock: 100
+      },
         {
             name: "Apple",
             cost: 1.0,
